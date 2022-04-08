@@ -17,3 +17,6 @@ A few examples:(Input1, Input2, Input3 --> Output)
 ```
 
 Try to do it without using if statements!
+
+
+Link Code Wars: https://www.codewars.com/kata/5667e8f4e3f572a8f2000039/solutions/c
