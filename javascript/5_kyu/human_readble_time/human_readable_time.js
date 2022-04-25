@@ -6,7 +6,7 @@ function humanReadable(seconds) {
   let hours = 0;
   let min = 0;
 
-  if (seconds >= 3600) hours = Math.floor(seconds / 60 / 60);
+  if (seconds >= 3600) hours = Math.floor(seconds / 3600);
   seconds = seconds - 3600 * hours;
 
   if (seconds >= 60) min = Math.floor(seconds / 60);
@@ -20,4 +20,4 @@ function humanReadable(seconds) {
   return TIME;
 }
 
-console.log(humanReadable(332290));
+console.log(humanReadable(60));
