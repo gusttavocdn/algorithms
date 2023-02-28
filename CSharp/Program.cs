@@ -1,5 +1,5 @@
 ﻿
-using CSharp.EighthKyu;
+using CSharp.Katas;
 
 // string text = "HELLO I AM DONALD    ";
-Console.WriteLine(EighthKyuKata.ExpressionsMatter(1, 3, 1));
+Console.WriteLine(SeventhKyuKatas.binaryArrayToNumber(new int[] { 0, 0, 0, 0 }));

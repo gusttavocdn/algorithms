@@ -1,6 +1,6 @@
-namespace CSharp.EighthKyu;
+namespace CSharp.Katas;
 
-public class EighthKyuKata
+public class EighthKyuKatas
 {
 
     public static object[] RemoveEveryOther(object[] arr)
