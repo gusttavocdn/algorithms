@@ -1,7 +1,6 @@
 Array.prototype.same_structure_as = function (other) {
   console.log(other);
   if (this.length !== other.length) return false;
-
   for (let i = 0; i < this.length; i += 1) {
     if (Array.isArray(other[i]) && Array.isArray(this[i])) {
       if (!this[i].same_structure_as(other[i])) return false;
@@ -11,6 +10,5 @@ Array.prototype.same_structure_as = function (other) {
       return false;
     }
   }
-
   return true;
 };
